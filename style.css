@@ -244,6 +244,7 @@ input[type=submit] {
 }
 @media screen and (max-width: 650px){
   .masthead {   
+    position:static;
     display:flex;
     flex-direction:column;
   }
@@ -254,3 +255,5 @@ input[type=submit] {
     
   }
 }
+
+/* So I was able to get the page to function as you go smaller but I wasnt able to get it to exactly match the photos, in specific my three links only stack underneath the nav heading once you get really small. Ah! Need to learn this part better aka media queries/responsive design. I tried :( */
